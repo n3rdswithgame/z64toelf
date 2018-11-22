@@ -16,6 +16,7 @@ chmod u+x mk_elf.py #not needed for windows or if you want to invoke with python
 bash build.sh #or chmod and ./build.sh
 #run build.bat instead for windows
 ```
+Once running either `build.sh` or `build.bat` you will have an `out.elf` in the root this project dir unless you change the default output of ElfFactory.
 
 ## Customizing output
 
