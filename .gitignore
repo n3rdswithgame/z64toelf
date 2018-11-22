@@ -102,3 +102,15 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#n64 roms
+*.n64
+*.z64
+*.v64
+
+#generated elf
+*.elf
+
+#build stuff
+*.sh
+*.bat
