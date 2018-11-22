@@ -1,0 +1,3 @@
+[submodule "PyZ64"]
+	path = PyZ64
+	url = https://github.com/n3rdswithgame/PyZ64.git
