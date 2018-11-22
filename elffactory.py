@@ -74,6 +74,12 @@ class ElfFactory(object):
 		self.incbins += asmtemplate.format(secname, flag, binname, vaddr, bits, raw, *extra)
 		self.ldlines += ldtemplate.format(secname, flag, binname, vaddr, bits, raw, *extra)
 
+	def addRawASM(self, rawasm):
+		self.incbins += '\n' + rawasm + '\n'
+
+	def addRawLD(self, rawld):
+		self.ldlines += '\n' + rawld + '\n'
+
 	def writeASM(self, filename):
 		self.asmfile = self.wrapbuilddir(filename)
 		with open(self.asmfile, 'w') as f:
