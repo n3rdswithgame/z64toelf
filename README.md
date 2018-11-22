@@ -1,6 +1,6 @@
 # z64toelf
 ### ver 0.1
-Example using my [PyZ64](https://github.com/n3rdswithgame/PyZ64) python library. It parses the supplied rom, specifically the overlay tables and a file table as part PyZ64), and generates and elf executable from [code](https://wiki.cloudmodding.com/oot/Code_(File)) and the overlays placing all of these files at virtual address they were compiled for.
+Example using my [PyZ64](https://github.com/n3rdswithgame/PyZ64) python library. It parses the supplied rom, specifically the [overlay tables](https://wiki.cloudmodding.com/oot/Overlay_Tables) and a file table as part PyZ64), and generates and elf executable from [code](https://wiki.cloudmodding.com/oot/Code_(File)) and the [overlays](https://wiki.cloudmodding.com/oot/Overlays) placing all of these files at virtual address they were compiled for.
 
 Currently this can only work with 1.0 uncompressed roms as my PyZ64 library only supports that well enough to build the elf. That will improve when I work on the library more
 
