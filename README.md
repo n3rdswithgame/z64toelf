@@ -17,6 +17,9 @@ bash build.sh #or chmod and ./build.sh
 #run build.bat instead for windows
 ```
 
-##Customizing output
+## Customizing output
 
 There is some output custimization that will get documented at soon, but it can all be seen in elffactory.py
+
+## Thanks
+Thanks glankk for helping me figure my dumb error with section flags
